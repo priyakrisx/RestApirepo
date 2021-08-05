@@ -30,7 +30,7 @@ public class TestsExamples {
 	public void test_2() {
 
 		Response response = get("https://reqres.in/api/users?page=1");
-		System.out.println(response.getStatusCode());
+		//System.out.println(response.getStatusCode());
 		System.out.println(response.getTime());
 		System.out.println(response.getBody().asPrettyString());
 		System.out.println(response.getHeader("content-type"));
